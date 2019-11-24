@@ -4,7 +4,7 @@
 	<head>
 		<title>Layout</title>
 		<meta charset="utf-8"/>
-		<style>
+		<!--<style>
 			.drow {
 				position: relative;
 				width: 100%;
@@ -18,7 +18,7 @@
 				width: 100%;
 				height: 100%;
 			}
-		</style>
+		</style> -->
 	</head>
 	<body>
 		<main>
@@ -26,20 +26,10 @@
 				<iframe
 					src="https://www.draw.io/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=Layout_2.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D16Ncbv_vLvfmE_dxBzPjleQChlP9fLJU9%26export%3Ddownload"
 					frameborder="0"
+					style="position: absolute; left: 50%; width: 800 hight: 600"
 					allowfullscreen>
 				</iframe>
 			</div>
-			<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-			<script>
-				$('iframe')
-					.on('load', function(){
-					try {
-						$(this).height(this.contentWindow.document.documentElement.scrollHeight);
-					} catch (e) {
-					}
-				})
-					.trigger('load');
-			</script>
 		</main>	
 	</body>
 </html>
