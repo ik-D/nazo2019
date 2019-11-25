@@ -5,6 +5,7 @@
 }
 
 .iframe-wrap iframe {
+  background-color: #990000
   position: absolute;
   top: 0;
   right: 0;
