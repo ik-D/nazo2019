@@ -2,10 +2,10 @@
   position: relative;
   width: 70%;
   padding-top: 56.25%;
+  background-color: #990000
 }
 
 .iframe-wrap iframe {
-  background-color: #990000
   position: absolute;
   top: 0;
   right: 0;
